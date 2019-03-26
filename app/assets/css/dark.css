@@ -1,0 +1,137 @@
+.item-1{
+    background-image: url('../images/header-bg-dark-1.png');
+}
+.item-2{
+    background-image: url('../images/header-bg-dark-2.png');
+}
+.item-3{
+    background-image: url('../images/header-bg-dark-3.png');
+}
+.full-screen-static .header-bg{
+    background-image: url('../images/header-bg-dark-2.png');
+}
+.animation-bg-smoke .header-bg:after{
+    background-image: url('../images/header-bg-dark-4.png');
+}
+.animation-bg-cloud .header-bg{
+    background-image: url('../images/dark-cloud.png');
+}
+.fun{
+	background-image: url('../images/fun-dark.png');
+	color: #fff;
+}
+.testimonial{
+	background-image: url('../images/testimonial-dark.png');
+}
+.col-50-content{
+    background: #1B1B1B;
+}
+.expert
+{
+	background-color: #272727;
+}
+
+.provide,
+.works,
+.partners
+{
+    background-color: #1d1d1d;
+}
+
+.skill,
+.process,
+.press,
+.contact{
+	background-color: #1b1b1b;
+}
+@media (max-width: 47.9rem){
+    .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+}
+.modifide-nav{
+    background-color: #1D1D1D;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+	background: #000;
+}
+@media (max-width: 47.9rem){
+    .bg-transparent{
+        background-color: #313131;
+    }
+}
+.works-item-title{
+	color: #fff;
+}
+.response-success, .response-fail{
+    color: #fff;
+}
+footer{
+	color: #999;
+}
+.btn-niagara{
+	background-color: #000;
+}
+.button-group .btn-niagara{
+	color: #fff;
+}
+#btn-map{
+	background-color: #1b1b1b;
+}
+.contacts,
+.footer-last-row{
+	background-color: #272727;
+}
+.social-media{
+	background-color: #212121;
+}
+.section-header{
+	color: #c0c0c0;
+}
+.title-border,
+.title-border:before,
+.title-border:after{
+	background-color: #464646;
+}
+p{
+	color: #999999;
+}
+.date, .author span, h1, h2, h3, h4, h5, h6{
+	color: #fff;
+}
+.provide-left{
+	color: #fff;
+}
+img{
+    filter: blur(0) grayscale(100%);
+    -webkit-filter: blur(0) grayscale(100%);
+}
+.works-single-item:hover img{
+    filter: blur(0.5rem) grayscale(0%);
+    -webkit-filter: blur(0.5rem) grayscale(0%);
+}
+.form-control{
+	background-color: #232323;
+	border-color: #303030;
+}
+.form-control:focus{
+	border-color: #464646;
+}
+.testimonial .container::-webkit-scrollbar {
+    width: 1em;
+    background: #464646;
+    height: 0.5rem;
+}
+ 
+.testimonial .container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.testimonial .container::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  outline: 1px solid black;
+}
